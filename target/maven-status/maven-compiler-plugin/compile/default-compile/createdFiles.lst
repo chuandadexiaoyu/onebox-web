@@ -1,0 +1,6 @@
+com/chinasofti/onebox/onebox_web/service/impl/UserServiceImpl.class
+com/chinasofti/onebox/onebox_web/service/UserService.class
+com/chinasofti/onebox/onebox_web/domain/User.class
+com/chinasofti/onebox/onebox_web/IDao/UserDao.class
+com/chinasofti/onebox/onebox_web/controller/UserController.class
+com/chinasofti/onebox/onebox_web/IDao/impl/UserDaoImpl.class
