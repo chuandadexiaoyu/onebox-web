@@ -23,6 +23,12 @@ public class UserController {
 	public String toIndex(HttpServletRequest request, @PathVariable Integer userId, Model model) {
 
 		User user = this.userService.getUserById(userId);
+		
+		if (null == user)
+		{
+			return "error/404";
+		}
+		
 		model.addAttribute(user);
 
 		return "showUser";

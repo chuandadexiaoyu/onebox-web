@@ -2,7 +2,7 @@ package com.chinasofti.onebox.onebox_web.IDao;
 
 import com.chinasofti.onebox.onebox_web.domain.User;
 
-public interface UserDao {
+public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);
